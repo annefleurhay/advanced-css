@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(109, 139, 150);
+  margin: 0;
+  padding-top: 20px;
+}
+
+.container {
+  /* General Styling buttons */
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  /* Specific Styling buttons */
+  /* Plaatsing buttons */
+  /* Vastmaken buttons */
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  /* Transition animation */
+}
+.container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.container li {
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.container a:link, .container a:visited, .container a:active {
+  color: white;
+}
+.container .blog {
+  background-color: #e17b77;
+  transform: translateX(110px);
+}
+.container .blog:hover {
+  transform: translateX(0px);
+  transition: transform 350ms ease-in-out;
+}
+.container .twitter {
+  background-color: #00aced;
+  transform: translateX(110px);
+}
+.container .twitter:hover {
+  transform: translateX(0px);
+  transition: transform 350ms ease-in-out;
+}
+.container .linkedin {
+  background-color: #007bb6;
+  transform: translateX(110px);
+}
+.container .linkedin:hover {
+  transform: translateX(0px);
+  transition: transform 350ms ease-in-out;
+}
+.container .facebook {
+  background-color: #3b5998;
+  transform: translateX(110px);
+}
+.container .facebook:hover {
+  transform: translateX(0px);
+  transition: transform 350ms ease-in-out;
+}
+.container .github {
+  transform: translateX(110px);
+  background-color: #333;
+}
+.container .github:hover {
+  transform: translateX(0px);
+  transition: transform 350ms ease-in-out;
+}/*# sourceMappingURL=style.css.map */
